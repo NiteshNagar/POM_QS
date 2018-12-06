@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78759" started-at="2018-11-22T17:06:44Z" finished-at="2018-11-22T17:08:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78759" started-at="2018-11-22T17:06:44Z" finished-at="2018-11-22T17:08:02Z">
+      <class name="com.quickschool.com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="setup" is-config="true" duration-ms="12462" started-at="2018-11-22T22:36:44Z" finished-at="2018-11-22T22:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTitlePageTest()[pri:1, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="LoginTitlePageTest" duration-ms="53" started-at="2018-11-22T22:36:56Z" finished-at="2018-11-22T22:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitlePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="312" started-at="2018-11-22T22:36:56Z" finished-at="2018-11-22T22:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="setup" is-config="true" duration-ms="11272" started-at="2018-11-22T22:36:57Z" finished-at="2018-11-22T22:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UserenabledTest()[pri:2, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="UserenabledTest" duration-ms="211" started-at="2018-11-22T22:37:08Z" finished-at="2018-11-22T22:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserenabledTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="266" started-at="2018-11-22T22:37:08Z" finished-at="2018-11-22T22:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="setup" is-config="true" duration-ms="11586" started-at="2018-11-22T22:37:08Z" finished-at="2018-11-22T22:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PasswordenabledTest()[pri:3, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="PasswordenabledTest" duration-ms="112" started-at="2018-11-22T22:37:20Z" finished-at="2018-11-22T22:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordenabledTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="296" started-at="2018-11-22T22:37:20Z" finished-at="2018-11-22T22:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="setup" is-config="true" duration-ms="10830" started-at="2018-11-22T22:37:20Z" finished-at="2018-11-22T22:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:4, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="LoginTest" duration-ms="9043" started-at="2018-11-22T22:37:31Z" finished-at="2018-11-22T22:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="475" started-at="2018-11-22T22:37:40Z" finished-at="2018-11-22T22:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="setup" is-config="true" duration-ms="11402" started-at="2018-11-22T22:37:41Z" finished-at="2018-11-22T22:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="imgLogoTest()[pri:5, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="imgLogoTest" duration-ms="10099" started-at="2018-11-22T22:37:52Z" finished-at="2018-11-22T22:38:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//img[contains(.,'School Logo')]"}
+Command duration or timeout: 0 milliseconds]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//img[contains(.,'School Logo')]"}
+Command duration or timeout: 0 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.quickschool.com.pages.TestLoginPage.validateImage(TestLoginPage.java:44)
+	at com.quickschool.com.testcases.LoginPageTest.imgLogoTest(LoginPageTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//img[contains(.,'School Logo')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ADMINRG-M7VVNID', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(jar:file:///C:/Users/NITESH~1/AppData/Local/Temp/anonymous4399698437080614259webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/driver-component.js:11885)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(jar:file:///C:/Users/NITESH~1/AppData/Local/Temp/anonymous4399698437080614259webdriver-profile/extensions/fxdriver@googlecode.com.xpi!/components/driver-component.js:918)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imgLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quickschool.com.testcases.LoginPageTest@64bfbc86]" name="tearDown" is-config="true" duration-ms="305" started-at="2018-11-22T22:38:02Z" finished-at="2018-11-22T22:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.quickschool.com.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
